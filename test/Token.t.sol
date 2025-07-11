@@ -20,7 +20,7 @@ contract TokenTest is Test {
         token = new Token();
     }
 
-    function test_InitialState() public {
+    function test_InitialState() public view {
         assertEq(token.name(), "SecureToken");
         assertEq(token.symbol(), "STK");
         assertEq(token.decimals(), 18);
