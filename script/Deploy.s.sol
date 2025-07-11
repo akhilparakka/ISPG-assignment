@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import {Script, console} from "forge-std/Script.sol";
-import {Token} from "../src/Counter.sol";
+import {Token} from "../src/Token.sol";
 
 contract DeployScript is Script {
     function setUp() public {}
